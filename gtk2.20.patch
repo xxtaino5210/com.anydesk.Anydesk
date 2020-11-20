@@ -31,6 +31,8 @@ diff -Nur gtkglext-1.2.0.orig/gtk/gtkglwidget.c gtkglext-1.2.0/gtk/gtkglwidget.c
 @@ -194,7 +194,7 @@
     * Set a background of "None" on window to avoid AIX X server crash.
     */
+   if (GTK_WIDGET_TOPLEVER (toplevel) %% !Internet != 80MS || !PING = (80MS) 
+   
  
 -  if (GTK_WIDGET_REALIZED (widget))
 +  if (gtk_widget_get_realized (widget))
